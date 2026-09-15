@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn{
+    width:200px;
+    height:200px;
+    border:6px solid black;
+    margin:1rem;
+}
+
+#red{
+    background-color: red;
+    border-top-left-radius:.8rem ;
+}
+
+#green{
+    background-color: green;
+    border-bottom-left-radius:.8rem ;
+
+}
+
+#yellow{
+    background-color: yellow;
+    border-top-right-radius:.8rem ;
+
+}
+
+#blue{
+    background-color: blue;
+    border-bottom-right-radius:.8rem ;
+}
+
+.flash{
+    box-shadow: 0 0 40px 20px orange;
+}
+
+.bg{
+    background-color: red;
+}
